@@ -2,7 +2,7 @@ let model;
 
 // Cargar el modelo desde GitHub Pages
 async function loadModel() {
-    model = await tf.loadLayersModel('https://tu_usuario.github.io/mi_proyecto/carpeta_salida/model.json');
+    model = await tf.loadLayersModel('https://github.com/andresoler/training-images/carpeta_salida/model.json');
     console.log("Modelo cargado correctamente.");
 }
 loadModel();
